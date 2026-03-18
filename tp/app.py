@@ -186,7 +186,7 @@ app.layout = html.Div(style={
             dash_table.DataTable(
                 id='table-ventes',
                 page_size=7,
-                filter_action='native',
+                filter_action='none',
                 sort_action='native',
                 style_table={
                     'overflowX': 'auto',
